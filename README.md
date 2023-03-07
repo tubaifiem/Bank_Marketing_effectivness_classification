@@ -1,7 +1,6 @@
-##**Bank Marketing Effectiveness Prediction**
-Soumabha Sarkar
+## **Bank Marketing Effectiveness Prediction**
 
-###**Abstract**
+### **Abstract**
 
 Finance industry is one of the leading industries globally and has the potential to bring a huge impact in the growth of the nation. Thus, it is important to analyze the data or information that the banking sector records about the clients. This data can be used to create connections and keep professional relationships with the customers in order to target them individually for any banking schemes.
 
