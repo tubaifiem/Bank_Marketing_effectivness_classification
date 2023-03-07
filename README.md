@@ -8,7 +8,7 @@ Usually, the selected customers are contacted directly through: personal contact
 
 Thus, in this project we trained a model that can predict that whether the client will opt for a term deposit or not using given bank-client data, data related with the last contact of the current campaign and some other useful attributes
 
-###**Problem Statement**
+### **Problem Statement**
 
 The given dataset is of a direct marketing campaign (Phone Calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (Target variable y).
 We were provided with the following dataset:
@@ -53,7 +53,7 @@ Output variable (desired target):
 
 y - has the client subscribed to a term deposit? (binary: 'yes','no')
 
-###**Introduction**
+### **Introduction**
 
 Marketing is the most common method which many companies are using to sell their products, services and reach out to potential customers to increase their sales. Telemarketing is one of the most useful ways of doing marketing for increasing business and building good relationships with customers to get business for a company. It’s also important to select and follow up with those customers who are most likely to subscribe to a product or service.
 
@@ -76,12 +76,12 @@ Balancing Target Feature
 Building Model
 
 
-###**Dataset Exploration**
+### **Dataset Exploration**
 
 The given dataset was initially loaded for a quick overview. It was observed that our dataset contains 45211 records and 17 features. Datatypes of features was then checked and it was found that there are 7 numerical (int) and 10 Categorical (object)
 datatypes among which no null values and duplicated records were found in our dataset.
 
-###**Exploratory Data Analysis**
+### **Exploratory Data Analysis**
 
 After data wrangling, we did univariate and multivariate analysis on features to understand their pattern and how they relate with the target class.
 
@@ -152,7 +152,7 @@ Duration
 
 The above box plot shows that calls with long duration have more tendency for conversion.
 
-###**Feature Engineering**
+### **Feature Engineering**
 
 Feature engineering is one of the important steps in model building and thus we focused more into it. We performed the following in feature engineering
 
@@ -244,7 +244,7 @@ Accuracy is one of the simplest metrics to use. It’s defined as the number of 
 **Area under ROC Curve (AUC)**
 ROC curves use a combination of the true positive rate (the proportion of positive examples predicted correctly, defined exactly as recall) and false positive rate (the proportion of negative examples predicted incorrectly) to build up a summary picture of the classification.
 
-###**Conclusion**
+### **Conclusion**
 
 Thus, we come to an end of our analysis and model building to predict if the client will subscribe to a term deposit or not. The most important takeaways are:
 
